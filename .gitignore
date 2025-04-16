@@ -1,0 +1,27 @@
+# Python cache files
+__pycache__/
+*.pyc
+
+# Node.js dependencies
+
+node_modules/
+typescript-mcp-server/node_modules/
+typescript-mcp-server/node_modules/*
+**/node_modules/
+
+# Environment files
+.env
+
+# Build artifacts
+dist/
+*.js
+*.d.ts
+
+# Lock files
+uv.lock
+package-lock.json
+yarn.lock
+
+# IDE/Editor configurations
+*.code-workspace
+.DS_Store
